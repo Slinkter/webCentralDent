@@ -1,0 +1,7 @@
+.principal-cabeza {
+    background: linear-gradient(90deg, rgba(32, 30, 30, 0.925), rgba(0, 0, 0, 0.925)), url('imagenes/main.jpg') center center;
+    background-size: cover;
+}
+.container-standar{
+    min-height: 105vh;
+}
