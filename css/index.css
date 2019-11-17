@@ -2,41 +2,55 @@
     background: linear-gradient(90deg, rgba(32, 30, 30, 0.925), rgba(0, 0, 0, 0.925)), url('imagenes/main.jpg') center center;
     background-size: cover;
 }
-.container-standar{
+
+.container-standar {
     min-height: 105vh;
 }
 
 .navbar-light .navbar-brand span {
     background-image: url('../imagenes/logo.png');
 }
-.logobg{
+
+.logobg {
     background: url('../imagenes/logo.png');
 
 }
 
 .text-dark {
-    color: #000000 
+    color: #000000
 }
 
-.title-font{
-    font-family: 'Courgette', cursive;
+.title-font {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     color: white;
     font-size: 45px;
+    line-height: 2em;
 }
 
-.carousel-font{
+.carousel-font {
     font-family: 'Lato', sans-serif;
-    color: rgb(189, 226, 215) ;
+    color: rgb(189, 226, 215);
     font-size: 40px;
 }
 
-.service-font{
-    font-family: 'Lato', sans-serif;
-    color: #ca35ef;
+.service-font {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    color: #92928f;
 }
 
-.description-font{
-    font-family: 'Lato', sans-serif;
-    color: #14d89e;
-   
+.description-font {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    color: #92928f;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2em;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
