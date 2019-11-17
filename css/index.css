@@ -17,3 +17,26 @@
 .text-dark {
     color: #000000 
 }
+
+.title-font{
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 45px;
+}
+
+.carousel-font{
+    font-family: 'Lato', sans-serif;
+    color: rgb(189, 226, 215) ;
+    font-size: 40px;
+}
+
+.service-font{
+    font-family: 'Lato', sans-serif;
+    color: #ca35ef;
+}
+
+.description-font{
+    font-family: 'Lato', sans-serif;
+    color: #14d89e;
+   
+}
