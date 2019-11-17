@@ -7,6 +7,8 @@
     min-height: 105vh;
 }
 
+
+
 .navbar-light .navbar-brand span {
     background-image: url('../imagenes/logo.png');
 }
@@ -54,3 +56,20 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+@media (min-width: 200px) {
+    .container-standar {
+        min-height: 52vh;
+    }
+}
+
+@media (min-width: 400px) {
+
+    .container-standar {
+        min-height: 52vh;
+    }
+}
+
+
+@media (min-width: 768px) {}
