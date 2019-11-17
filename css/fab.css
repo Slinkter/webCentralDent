@@ -15,6 +15,21 @@
 	box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
+.fab-red {
+
+	background: #b90101;
+
+}
+
+.fab-green {
+
+	background: #35b901;
+
+
+}
+
+
+
 .fab-icon-holder:hover{
 	opacity: 0.8;
 }
