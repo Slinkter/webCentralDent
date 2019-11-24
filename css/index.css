@@ -7,6 +7,13 @@
     min-height: 105vh;
 }
 
+.img_resize{
+    height: 80px;
+}
+.width_img{
+    width: 100%;
+}
+
 
 
 .navbar-light .navbar-brand span {
@@ -27,6 +34,13 @@
     color: white;
     font-size: 45px;
     line-height: 2em;
+}
+
+.icons-font {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    color: rgb(173, 23, 23);
+    font-size: 10px;
+    line-height: 0.2em;
 }
 
 .carousel-font {
@@ -62,6 +76,13 @@ p {
     .container-standar {
         min-height: 52vh;
     }
+    .img_resize{
+        height: 40px;
+    }
+    .width_img{
+        width: 130px;
+    }
+
 }
 
 @media (min-width: 400px) {
@@ -69,7 +90,20 @@ p {
     .container-standar {
         min-height: 52vh;
     }
+    .img_resize{
+        height: 40px;
+        
+    }
+    .width_img{
+        width: 80px;
+    }
+
 }
 
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .img_resize{
+        height: 80px;
+    }
+}
+
