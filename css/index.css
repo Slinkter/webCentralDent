@@ -38,9 +38,10 @@
 
 .icons-font {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-    color: rgb(173, 23, 23);
-    font-size: 10px;
-    line-height: 0.2em;
+    color: #3687c9;
+    font-size: 8px;
+
+    line-height: 1.2em;
 }
 
 .carousel-font {
