@@ -39,14 +39,14 @@
 .icons-font {
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     color: #3687c9;
-    font-size: 8px;
-
+    /*#67d4ff*/
+    font-size: 14px;
     line-height: 1.2em;
 }
 
 .carousel-font {
     font-family: 'Lato', sans-serif;
-    color: #3687c9;
+    color: #FFF;
     font-size: 40px;
 }
 
@@ -84,6 +84,12 @@ p {
         width: 130px;
     }
 
+    .carousel-font {
+        font-family: 'Lato', sans-serif;
+        color: #FFF;
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width: 400px) {
@@ -99,12 +105,23 @@ p {
         width: 80px;
     }
 
+    .carousel-font {
+        font-family: 'Lato', sans-serif;
+        color: #FFF;
+        font-size: 20px;
+    }
+
 }
 
 
 @media (min-width: 768px) {
     .img_resize{
         height: 80px;
+    }
+    .carousel-font {
+        font-family: 'Lato', sans-serif;
+        color: #FFF;
+        font-size: 30px;
     }
 }
 
