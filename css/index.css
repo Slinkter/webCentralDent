@@ -37,31 +37,36 @@
 }
 
 .whatsapp-font {
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #3687c9;
-    font-size: 13px;
-    line-height: 1.2;
+    font-size: 10px;
+    line-height: 1.1;
+    font: bold;
 
+}
+.font-lema{
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+
+    font-weight: bold;
+    color: #92928f;
 }
 
 .title-font-pago {
-
-
     font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
     color: #3687c9;
     font-weight: 300;
     font-size: 46px;
-    line-height: 1.9em;
+    line-height: 1.1em;
     font-weight: bold;
-
 }
 
 .icons-font {
-    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #3687c9;
-    /*#67d4ff*/
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.2em;
+    font-weight: 900;
 }
 
 .carousel-font {
@@ -114,6 +119,13 @@ p {
         font-size: 20px;
     }
 
+    .service-font {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+        color: #92928f;
+    }
+
 }
 
 @media (min-width: 400px) {
@@ -135,6 +147,12 @@ p {
         font-family: 'Lato', sans-serif;
         color: #FFF;
         font-size: 20px;
+    }
+    .service-font {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        color: #92928f;
     }
 
 }
