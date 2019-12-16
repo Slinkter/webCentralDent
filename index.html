@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="./css/fab.css" />
     <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- ============================================================================================================= -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
@@ -50,47 +52,52 @@
     </script>
 
 
-    <nav class="navbar navbar-expand-md navbar-white fixed-top " style="background: #3687c9;">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-dark navbar-expand-sm nav-celeste " >
+        <a class="navbar-brand " href="#"></a>
+      
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item ">
+                <a class="ml-2 mr-2" href="https://wa.me/51938448148?text=Quisiera una consulta o cita"
+                    style="text-align: center;">
+                    <img class=" img_resize_nav mx-auto " src="imagenes/whatsapp01.png"
+                        style="text-align: center;" />
+                    <span class="icons-font mt-2  text-center text-white "
+                        style="text-align: center; display: inline;">
+                        Odontología
+                    </span>
+                </a>
+            </li>
+           
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                    <a class="ml-2 mr-2" href="https://wa.me/51938448148?text=Quisiera una consulta o cita"
-                        style="text-align: center;">
-                        <img class=" img_resize_nav mx-auto " src="imagenes/whatsapp.png" style="text-align: center;" />
-                        <p class="icons-font mt-2  text-center text-white "
-                            style="text-align: center; display: inline;">
-                            Odontología
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="ml-2 mr-2" href="https://wa.me/51945289964?text=Quisiera una consulta o cita"
-                        style="text-align: center;">
-                        <img class=" img_resize_nav mx-auto " src="imagenes/whatsapp.png"
-                            style="text-align: center; display: inline;" />
-                        <p class="icons-font mt-2  text-center text-white" style="text-align: center; display: inline;">
-                            Ortodoncia
-                        </p>
-                    </a>
-                </li>
+        </ul>
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="ml-2 mr-2" href="https://wa.me/51945289964?text=Quisiera una consulta o cita"
+                    style="text-align: center;">
+                    <img class=" img_resize_nav mx-auto " src="imagenes/whatsapp01.png"
+                        style="text-align: center; display: inline;" />
+                    <span class="icons-font mt-2  text-center text-white" style="text-align: center; display: inline;">
+                        Ortodoncia
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
                 <a class="ml-2 mr-2" href="contacto.html" style="text-align: center;">
                     <img class=" img_resize_nav mx-auto " src="imagenes/gmail.png"
                         style="text-align: center; display: inline;" />
-                    <p class="icons-font mt-2  text-center text-white" style="text-align: center; display: inline;">
+                    <span class="icons-font mt-2  text-center text-white" style="text-align: center; display: inline;">
                         Consultas
-                    </p>
+                    </span>
                 </a>
-            </form>
-        </div>
+            </li>
+        </ul>
+
+
+       
     </nav>
 
 
@@ -98,25 +105,27 @@
 
 
     <main role="main">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide  " data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner p-auto">
+                <div class="carousel-item active m-auto">
 
                     <img class="img-flud" src="./imagenes/logoprueba04.PNG" alt="" />
-                    <div class="container">
-                        <div class="carousel-caption ">
-                            <img class="img-flud " style="margin-top:  -100px;" src="./imagenes/logotitle.png"
-                                width="120" height="120" alt="" />
-                            <h1 style="color: #0070C0; font-size: 95px; ">LimaCentral<span style="color: #00BB50;">Dent</span></h1>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
+                    <div class="container p-auto">
+                        <div class="carousel-caption  p-auto">
+                            <img class="img-flud img_resize   animated fadeInDown retraso-1" 
+                                src="./imagenes/logotitle.png"  alt="" />
+                            <h1 class="animated fadeInDown retraso-2  text-center  title-size " style="color: #0070C0;  ">
+                                LimaCentral<span class="" style="color: #00BB50;">Dent</span></h1>
+                            <div class="aumentar">
+
+                            </div>
+
+                           
                         </div>
                     </div>
                 </div>
@@ -167,7 +176,8 @@
         <hr class="mb-3" />
         <div class="row featurette">
             <div class="col-md-7 my-auto p-2">
-                <h1 class="service-font">Rehabilitación Oral</h1>
+                <!--  la letra debe ser igual al titulo logo  -->
+                <h1 class="service-font ">Rehabilitación Oral</h1>
                 <p class="lead description-font">
                     Se encarga de devolver la función y estética principalmente en casos
                     en los que se han perdido dientes. Los tratamientos incluyen
