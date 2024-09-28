@@ -8,4 +8,16 @@
     object-position: center;
     overflow: hidden;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.hovertext:hover .img-standar {
+    box-shadow: 2px 4px 20px #3687c9;
+    scale: 1.01;
+}
+
+.img-main {
+    object-position: center;
+    overflow: hidden;
+    object-fit: cover;
 }
